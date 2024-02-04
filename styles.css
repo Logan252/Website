@@ -67,10 +67,17 @@ footer {
 }
 
 /* Carousel Styles */
-.carousel-inner img {
+.carousel-item img {
     width: 100%;
-    border-radius: 10px;
+    max-height: 500px; 
+    object-fit: cover;
 }
+
+/* Hide the default background color for carousel items */
+.carousel-item {
+    background-color: transparent;
+}
+
 
 /* Featurette Styles */
 .featurette-divider {
